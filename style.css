@@ -19,6 +19,7 @@ body{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 10vh;
     align-items: center;
+    border: white solid;
 }
 .nav-link{
     padding-left: 5vw;
@@ -28,5 +29,23 @@ body{
 }
 
 .nav-link:hover{
-    color: black;
+    color: rgba(0, 0, 0, 0.932);
+}
+
+main{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+}
+
+.carousel {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    width: 70vw;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
