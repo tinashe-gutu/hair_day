@@ -73,3 +73,7 @@ footer{
     justify-content: space-between;
 }
 
+.btn{
+    border-color: white;
+    background-color: #FA836A
+}
